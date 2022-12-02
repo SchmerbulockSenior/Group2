@@ -1,0 +1,36 @@
+.navbar {
+    padding: 8px;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+
+}
+
+.menu ul{
+    list-style: none;
+    padding: 10px 50px 10px 50px;
+    margin: 0;
+    text-align: right;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+    padding-right: 60px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+}
+
+.menu a:hover{
+    color: #EAB543;
+}
+
+.menu a:active{
+    color: #fdcb6e;
+}
