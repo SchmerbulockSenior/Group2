@@ -5,7 +5,6 @@
 }
 #nav-bar
 {
-	
     padding: 1% 2%;
 	position: sticky;
 	top: 0;
@@ -33,12 +32,19 @@
 	text-align: left;
 	letter-spacing: 0.5px;
 }
-.nav-item a:hover 
+.nav-item a:hover
 {
         background-color: #EB984E ;
         color: #ffffff;
         border-radius: 5px;
+		transition-duration: 0.5s;
 }
+.nav-item a:link{
+	padding-right: 60px;
+	color: white;
+	padding: 20px 30px;
+	text-align: center;
+  }
 /*----------------------------------------------Carousel section-------------------------------------------------------*/
 /* .carousel-item{
     height: 200px;
