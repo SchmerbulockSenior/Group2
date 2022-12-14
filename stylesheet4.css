@@ -74,20 +74,30 @@
 .item h3{
 	padding: 5px;
 	text-align: center;
+	font-family: 'Poppins';
+	font-size: 26px;
 }
 .item button{
 	padding: 5px 30px;
-	border: none;
+	border: solid#1e272e;
 	outline: none;
-	background-color:#EB984E;
+	background-color: #485460;
 	cursor: pointer;
-	border-radius: 20px;
+	border-radius: 100px;
 	font-size: 20px;
 	display: block;
 	margin: 0 auto;
 	transition: 0.2s all;
 }
 .item a:hover, a:link, a:visited, a:active{
+	color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+}s
+.item a:hover{
 	color: white;
 }
 .item button:hover{
