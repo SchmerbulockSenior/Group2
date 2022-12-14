@@ -1,11 +1,10 @@
 .body1
 {
 		background-color: #FFF9D1 ;
-		font-family: Georgia;	
+		font-family: 'Poppins';	
 }
 #nav-bar
 {
-	
     padding: 1% 2%;
 	position: sticky;
 	top: 0;
@@ -15,15 +14,19 @@
 {
 	padding: 0 !important;
 }
+#blow{
+	color: black;
+}
 .navbar-brand img
 {
 	
 	height: 40px;
 	padding-left: 20px;
 }
-#navbar-nav lin
+#navbar-nav li
 {
 	padding: 0 10px;
+	
 }
 .navbar-nav li a
 {
@@ -98,7 +101,7 @@
     text-align: center;
 }s
 .item a:hover{
-	color: white;
+	color: black;
 }
 .item button:hover{
 	
