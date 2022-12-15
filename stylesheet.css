@@ -147,17 +147,7 @@ h4 {
         color: #ffffff;
         border-radius: 5px;
 }
-/*----------------------------------------------Carousel section-------------------------------------------------------*/
-/* .carousel-item{
-    height: 200px;
-	background-size: auto;
-}
-.carousel-item img{
-	width: 50%;
-	background-size: auto;
-} */
 
-/*----------------------------------------------Recipe section-------------------------------------------------------*/
 #Findme{
     color: white;
 }
@@ -216,6 +206,16 @@ h4 {
     text-align: center;
 }
 
+
+.fa-facebook-square{
+    color: rgba(255, 253, 234);
+}
+.fa-instagram{
+    color: rgba(255, 253, 234);
+}
+.fa-twitter{
+    color: rgba(255, 253, 234);
+}
 #section-about{
     text-align: center;
 }
