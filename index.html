@@ -53,11 +53,24 @@
     </section>
     <br><br><br><br><br><br>
     <div id="section-about">
-        <p>YourCookingIna helps people cook filipino dishes by browsing here in YourCookingIna to perfectly cook delicious filipino dihes, desserts, and pastries.
+        <p id="about">YourCookingIna helps people cook filipino dishes by browsing here in YourCookingIna to perfectly cook delicious filipino dihes, desserts, and pastries.
             Using YourCookingIna helps people to browse filipino recipes more easily. Help YourCookingIna grow by following our Pages.</p>
             <div class="Logos"></div>
     </div>
-
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("mymenu");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+    </script>
     
 </body>
 </html>
