@@ -74,10 +74,21 @@
 body {
     background-image: url(https://photokitchenfood.com/wp-content/uploads/2017/01/2017-Q1-Slider5.jpg);
     background-repeat: no-repeat;
-    background-size: 1400px 700px;
+    background-size: cover; 
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
     margin: 0;
     padding: 0;
     font-family: 'Poppins';
+}
+
+#about{
+    background-color: rgba(255, 253, 234, 0.534);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 h1 {
