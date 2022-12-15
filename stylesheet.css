@@ -205,6 +205,11 @@ h4 {
     text-align: center;
 }
 
+#section-about{
+    text-align: center;
+}
+
+
 
 @media screen and (max-width: 1000px) {
 	.items{
