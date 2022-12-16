@@ -180,15 +180,13 @@ h4 {
 .item img:hover{
 	transform: scale(1.04);
 }
-.item h3{
-	padding: 5px;
-	text-align: center;
-	font-family: 'Poppins';
-	font-size: 26px;
-}
+
+
 .item button{
 	padding: 15px 75px;
-	border: solid#1e272e;
+    background-color: rgba(87, 87, 87, 0.596);
+    letter-spacing: .5mm;
+	border: solid#fcfcfc;
 	outline: none;
 	cursor: pointer;
 	border-radius: 100px;
@@ -198,7 +196,8 @@ h4 {
 	transition: 0.2s all;
 }
 .items a:hover, a:link, a:visited, a:active{
-	color: rgb(0, 0, 0);
+	color:rgb(255, 255, 255);
+    font-family: 'Poppins';
     font-size: 20px;
     text-decoration: none;
     text-transform: capitalize;
