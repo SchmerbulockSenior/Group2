@@ -35,28 +35,32 @@
             </span>
         </div>
     </div>
-    <br><br><br><br><br>
+    
     <section class="items" id="section-recipe">
         <div class="item">
             <button><a id="category" href="sudan.html" target="_self">Filipino Dish</a></button>
             <br>
-            <img src="https://images.saymedia-content.com/.image/t_share/MTc5NDE0NTI4Mzg2MTQ3NjYx/adobong-manok-filipino-chicken-adobo.jpg">
+            <div class="imagepopup"><img src="dishpic/dishpic1.jpg"></div>
         </div>
         <div class="item">        
             <button><a id="category" href="dessert.html" target="_self">Filipino Desserts</a></button>
             <br>
-            <img src="https://sweetsimplevegan.com/wp-content/uploads/2021/03/filipino-Banana-Cue-sweet-simple-vegan.jpg">
+            <div class="imagepopup"><img src="desspic/desspic1.jpg"></div>
         </div>
         <div class="item">    
             <button><a id="category" href="pastries.html" target="_self">Filipino Pastries</a></button>
             <br>
-            <img src="https://amiablefoods.com/wp-content/uploads/barquillos-recipe-card.jpg">
+            <div class="imagepopup"><img src="imgpastries/img1.jpg"></div>
         </div>
         <br>
+        <div class="imageopenpopup">
+            <span>&times;</span>
+            <img src="imgpastries/img1.jpg" alt="">
+
     </section>
     <br><br><br><br><br><br>
     <div id="section-about">
-        <p id="about">YourCookingIna helps people cook filipino dishes by browsing here in YourCookingIna to perfectly cook delicious filipino dihes, desserts, and pastries.
+        <p id="about">YourCookingIna gathers famous and top rated recipes onlines to help people browse recipe that are highly rated and easy to cook. YourCookingIna helps people cook filipino dishes, desserts, and pastries.
             Using YourCookingIna helps people to browse filipino recipes more easily. Help YourCookingIna grow by following our Pages.
             <div class="list-group" >
                 <a class="list-group-item" href="https://www.facebook.com/profile.php?id=100088968361404" target="_blank"><i class="fa fa-facebook-square fa-2x" id="logo" aria-hidden="true"></i></a>
@@ -82,6 +86,17 @@
             header.classList.remove("sticky");
           }
         }
+    </script>
+    <script>
+
+        document.querySelectorAll('.imagepopup img').forEach(image =>{
+            image.onclick = () =>{
+                document.querySelector('.imageopenpopup').style.display = 'block';
+                document.querySelector('.imageopenpopup img').src = image.getAttribute('src');        }
+        })
+                document.querySelector('.imageopenpopup span').onclick = () =>{
+                document.querySelector('.imageopenpopup').style.display = 'none';
+                }
     </script>
     
 </body>

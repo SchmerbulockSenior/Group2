@@ -162,9 +162,8 @@ h4 {
 .items{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	padding: 30px 20px;
+	padding: 50px 20px;
 	grid-column-gap: 20px;
-	grid-row-gap: 30px;
 }
 .item img{
 	width: 100%;
@@ -219,7 +218,37 @@ h4 {
     text-align: center;
 }
 
+.items .imageopenpopup{
+	position: fixed;
+	top: 0; left: 0;
+	background: rgba(0, 0, 0, .9);
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+	display: none;
+}
 
+
+.items .imageopenpopup span{
+	position: absolute;
+	top: 0; right: 10px;
+	font-size: 40px;
+	font-weight: bolder;
+	color: #fff;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.items .imageopenpopup img{
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid #fff;
+	border-radius: 5px;
+	width: 750px;
+	height: 500px;
+	object-fit: cover;
+}
 
 @media screen and (max-width: 1000px) {
 	.items{
