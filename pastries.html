@@ -48,80 +48,99 @@
 <!-----------------------------S-----------------Desserts section------------------------------------------------------->
 
 <!----------------------------------------------Row1------------------------------------------------------->
+<div class="itemers">
 <section class="items">
     <div class="item">
-        <img src="https://amiablefoods.com/wp-content/uploads/barquillos-recipe-card.jpg">
+        <div class="imagepopup"><img src="img/img1.jpg"></a></div>
         <h3>Barquillos</h3>
         <button><a href="https://pilipinasrecipes.com/barquillos-recipe/" target="_blank">RECIPE</a></button>
     </div>
     <div class="item">
-        <img src="https://www.lutongbahayrecipe.com/wp-content/uploads/2019/03/lutong-bahay-recipe-binangkal-1200x1129.jpg">
+        <div class="imagepopup"><img src="img/img2.jpg"></div>
         <h3>Binangkal</h3>
         <button><a href="https://www.pinoycookingrecipes.com/recipe/binangkal" target="_blank">RECIPE</a></button>
     </div>
     <div class="item">
-        <img src="https://i.ytimg.com/vi/Acpo7D0vqLo/maxresdefault.jpg">
+        <div class="imagepopup"><img src="img/img3.jpg"></div>
         <h3>Biskocho</h3>
         <button><a href="https://www.kawalingpinoy.com/biscocho/" target="_blank">RECIPE</a></button>
     </div>
 <!----------------------------------------------Row2------------------------------------------------------->
     <div class="item">
-        <img src="https://www.pinoyrecipe.net/wp-content/uploads/2020/05/Buchi-with-Ube-Halaya-1200x900.jpg">
+        <div class="imagepopup"><img src="img/img4.jpg"></div>
         <h3>Buchi</h3>
         <button><a href="https://www.kawalingpinoy.com/buchi/" target="_blank">RECIPE</a></button>
     </div>
     <div class="item">
-        <img src="https://www.kawalingpinoy.com/wp-content/uploads/2018/05/filipino-buko-pie-2.jpg">
+        <div class="imagepopup"><img src="img/img5.jpg"></div>
         <h3>Buko Pie</h3>
         <button><a href="https://www.kawalingpinoy.com/buko-pie/" target="_blank">RECIPE</a></button>
     </div>
     <div class="item">
-        <img src="https://handletheheat.com/wp-content/uploads/2015/06/beef-empanadas-SQUARE.jpg">
+        <div class="imagepopup"><img src="img/img6.jpg"></div>
         <h3>Empanada</h3>
         <button><a href="https://panlasangpinoy.com/pork-empanada-recipe/" target="_blank">RECIPE</a></button>
     </div>
 <!----------------------------------------------Row3------------------------------------------------------->
 <div class="item">
-    <img src="https://4.bp.blogspot.com/-t6a0rcPl79M/TqIKNeO6u6I/AAAAAAAAM2s/DPIPYvZxSeE/s1024/ensaymada.jpg">
+    <div class="imagepopup"><img src="img/img7.jpg"></div>
     <h3>Ensaymada</h3>
     <button><a href="https://panlasangpinoy.com/filipino-pastry-bread-baking-ensemada-ensaimada-ensaymada-recipe/" target="_blank">RECIPE</a></button>
 </div>
 <div class="item">
-    <img src="https://www.foxyfolksy.com/wp-content/uploads/2021/03/pan-de-coco-1200t.jpg">
+    <div class="imagepopup"><img src="img/img8.jpg"></div>
     <h3>Pandecoco</h3>
     <button><a href="https://www.kawalingpinoy.com/pan-de-coco/" target="_blank">RECIPE</a></button>
 </div>
 
 <!----------------------------------------------Row4------------------------------------------------------->
 <div class="item">
-    <img src="https://suntrust.com.ph/sites/default/files/Suntrust_Bacolod_2.jpg">
+    <div class="imagepopup"><img src="img/img9.jpg"></div>
     <h3>Piaya</h3>
     <button><a href="https://www.foxyfolksy.com/piaya/" target="_blank">RECIPE</a></button>
 </div>
 <div class="item">
-    <img src="https://sugbo.ph/wp-content/uploads/2021/10/Pintos-Cebu-Bogo-1.jpeg">
+    <div class="imagepopup"><img src="img/img10.jpg"></div>
     <h3>Pintos</h3>
     <button><a href="https://www.pagkaingpinoytv.com/pintos-or-binaki/" target="_blank">RECIPE</a></button>
 </div>
 <div class="item">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Roscas_%28Leyte_cuisine%29.jpg">
+    <div class="imagepopup"><img src="img/img11.jpg"></div>
     <h3>Roscas</h3>
     <button><a href="http://cookiecompanion.com/rosca-cookie-from-the-philippines/?lang=en" target="_blank">RECIPE</a></button>
 </div>
 <!----------------------------------------------Row5------------------------------------------------------->
 <div class="item">
-    <img src="http://4.bp.blogspot.com/-8bW0Xjxbnz0/Vc1KrRM3I4I/AAAAAAABWhs/hltihiYrpMM/s1600/Rosquillos%2BRecipe%2B%2526%2BHow%2Bto%2BBake%2BGuide.jpg">
+    <div class="imagepopup"><img src="img/img12.jpg"></div>
     <h3>Rosquillos</h3>
     <button><a href="https://foodrecipenotebook.blogspot.com/2015/08/rosquillos-recipe-how-to-bake-guide.html" target="_blank">RECIPE</a></button>
 </div>
 <div class="item">
-    <img src="https://www.lutongbahayrecipe.com/wp-content/uploads/2019/03/lutong-bahay-shakoy-recipe-1200x1200.jpg">
+    <div class="imagepopup"><img src="img/img13.jpg"></div>
     <h3>Shakoy</h3>
     <button><a href="https://simplybakings.com/how-to-make-shakoy/" target="_blank">RECIPE</a></button>
 </div>
 
+<div class="imageopenpopup">
+    <span>&times;</span>
+    <img src="img/img1.jpg" alt="">
+
+</div>
+<script>
+
+    document.querySelectorAll('.imagepopup img').forEach(image =>{
+        image.onclick = () =>{
+            document.querySelector('.imageopenpopup').style.display = 'block';
+            document.querySelector('.imageopenpopup img').src = image.getAttribute('src');        }
+    })
+            document.querySelector('.imageopenpopup span').onclick = () =>{
+            document.querySelector('.imageopenpopup').style.display = 'none';
+            }
+</script>
 
 </section>
+</div>
+
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 

@@ -106,6 +106,38 @@
 	transform: scale(1.20);
 	
 }
+
+.itemers .imageopenpopup{
+	position: fixed;
+	top: 0; left: 0;
+	background: rgba(0, 0, 0, .9);
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+	display: none;
+}
+
+
+.itemers .imageopenpopup span{
+	position: absolute;
+	top: 0; right: 10px;
+	font-size: 40px;
+	font-weight: bolder;
+	color: #FFF9D1;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.itemers .imageopenpopup img{
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid #fff;
+	border-radius: 5px;
+	width: 750px;
+	height: 500px;
+	object-fit: cover;
+}
 @media screen and (max-width: 1000px) {
 	.items{
 		grid-template-columns: repeat(2, 1fr);
