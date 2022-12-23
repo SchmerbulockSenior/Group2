@@ -134,8 +134,8 @@
 	transform: translate(-50%, -50%);
 	border: 1px solid #fff;
 	border-radius: 5px;
-	width: 750px;
-	height: 500px;
+	width: 550px;
+	height: 450px;
 	object-fit: cover;
 }
 @media screen and (max-width: 1000px) {
