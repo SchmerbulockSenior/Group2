@@ -493,6 +493,22 @@
     <button><a href="https://panlasangpinoy.com/odong-recipe/" target="_blank">RECIPE</a></button>
 </div>
 
+<div class="imageopenpopup">
+    <span>&times;</span>
+    <img src="dishpic/dishpic1.jpg" alt="">
+
+</div>
+<script>
+
+    document.querySelectorAll('.imagepopup img').forEach(image =>{
+        image.onclick = () =>{
+            document.querySelector('.imageopenpopup').style.display = 'block';
+            document.querySelector('.imageopenpopup img').src = image.getAttribute('src');        }
+    })
+            document.querySelector('.imageopenpopup span').onclick = () =>{
+            document.querySelector('.imageopenpopup').style.display = 'none';
+            }
+</script>
 
 </section>
 
